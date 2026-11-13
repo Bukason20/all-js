@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+  margin: 5rem 0 2rem;
+}
+
+p {
+  text-align: center;
+}
+
+.my-choices {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.my-choices > div {
+  padding: 1rem;
+  background-color: orange;
+  cursor: pointer;
+}
+
+.my-choices > div:nth-child(1) {
+  background-color: red;
+}
+
+.my-choices > div:nth-child(2) {
+  background-color: blue;
+}
+
+.my-choices > div:nth-child(3) {
+  background-color: green;
+}

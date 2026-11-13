@@ -1,0 +1,47 @@
+* {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(245, 244, 244);
+}
+
+form {
+  max-width: 50%;
+  margin: 3rem auto;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+form h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+form > p:nth-of-type(1) {
+  margin: 1rem 0;
+}
+
+form div {
+  margin: 1rem 0;
+}
+form label {
+  display: block;
+}
+form input {
+  width: 100%;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+form button {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  background-color: rgb(1, 190, 1);
+  border: none;
+}

@@ -1,0 +1,12 @@
+#notes-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.note-card {
+  background-color: #ccc;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 2rem;
+}

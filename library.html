@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./library.css" />
+  </head>
+  <body>
+    <h1>Note Application</h1>
+
+    <form id="note-form">
+      <input type="text" placeholder="Note Title" id="note-title" required />
+      <br /><br />
+      <textarea
+        id="note-desc"
+        placeholder="Note description"
+        required
+      ></textarea>
+      <br /><br />
+      <select id="note-category" required>
+        <option value="" disabled selected>Choose a Category</option>
+        <option value="Work">Work</option>
+        <option value="Personal">Personal</option>
+        <option value="Education">Education</option>
+        <option value="Others">Others</option>
+      </select>
+      <br /><br />
+      <button type="submit">Add Note</button>
+    </form>
+
+    <div>
+      <h1>Notes</h1>
+
+      <div id="notes-container"></div>
+    </div>
+  </body>
+  <script src="./library.js"></script>
+</html>
